@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Name</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">.
+
+</head>
+
+<body>
+    <!-- top part -->
+
+    <div class="top container-fluid p-2 gradient-background">
+
+        <nav class="navbar navbar-expand-lg rounded-bottom navbar-dark fixed-top shadow gradient-background"
+            aria-label="Eleventh navbar example">
+
+            <div class="container-fluid p-2">
+                <a class="navbar-brand mr-5" href="#"><img src="./icons/logo.svg" class="logo" height="40"
+                        alt="logo">Logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample09">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExample09">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active mx-5" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle mx-5" href="#" data-bs-toggle="dropdown"
+                                aria-expanded="false">Sevices</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Service</a></li>
+                                <li><a class="dropdown-item" href="#">Another Service</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link mx-5" href="#">Portfolio</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link mx-5" href="#pricing">Pricing</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link mx-5" href="#">Contact</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+        </nav>
+
+
+        <div class="text-center" id="hero">
+            <h1 class="display-1 fw-normal text-light my-5">Company</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4 text-light">We specialize in blablabla.</p>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-1" type="search" placeholder="Email Adress" aria-label="Search">
+                    <button class="btn btn-light" id="subscribe" type="submit">subscribe</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Carousel -->
+
+    <div class="container" id="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                    class="active"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item mt-3 active">
+                    <h2 class="text-center pt-3 mb-5">WHAT OUR CUSTOMERS SAY</h2>
+                    <p class="text-center fst-italic">"This is a feedback"</p>
+                </div>
+
+                <div class="carousel-item mt-3">
+                    <h2 class="text-center pt-3 mb-5">WHAT OUR CUSTOMERS SAY</h2>
+                    <p class="text-center fst-italic">"This is another feedback"</p>
+                </div>
+
+                <div class="carousel-item mt-3">
+                    <h2 class="text-center pt-3 mb-5">WHAT OUR CUSTOMERS SAY</h2>
+                    <p class="text-center fst-italic">"This is another feedback"</p>
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span><img src="./icons/prev.svg" height="25"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span><img src="./icons/next.svg" height="25"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+    </div>
+
+    <!-- Pricing -->
+
+    <div class="container " id="pricing">
+
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-5 fw-normal text-body-emphasis text-uppercase">Pricing</h1>
+            <p class="fs-5 text-body-secondary">Choose a payment plan that works for you.</p>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center pricing">
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3 ">
+                        <h4 class="my-0 fw-normal">Basic</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$0<small
+                                class="text-body-secondary fw-light">/mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>10 users included</li>
+                            <li>2 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg outline-button">Sign up for free</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Pro</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$15<small
+                                class="text-body-secondary fw-light">/mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>20 users included</li>
+                            <li>10 GB of storage</li>
+                            <li>Priority email support</li>
+                            <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg solid-button">Sign up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Premium</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$29<small
+                                class="text-body-secondary fw-light">/mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>30 users included</li>
+                            <li>15 GB of storage</li>
+                            <li>Phone and email support</li>
+                            <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg solid-button">Contact us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="container-fluid border-top bg-light">
+        <footer class="py-5">
+            <div class="row">
+
+                <div class="col-5 ms-5 info">
+                    <ul class="flex-column list-unstyled">
+                        <li class="nav-item mb-2">
+                            <p class="text-body-secondary">Contact us and we'll get back to you within 24 hours</p>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <p class="text-body-secondary">Chicago, US</p>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <p class="text-body-secondary">+00 1515151515</p>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <p class="text-body-secondary">email@info.com</p>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+
+                <div class="col-6 mb-3 mx-auto ">
+                    <form>
+                        <h5 class="display-6 display-5 fw-normal text-body-emphasis mb-4">Contact</h5>
+
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2 mb-3">
+                            <input id="newsletter1" type="text" class="form-control w-50" placeholder="Name">
+                            <input id="newsletter2" type="text" class="form-control w-50" placeholder="Email address">
+                        </div>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2 mb-3" style="height: 200px;">
+                            <input id="newsletter3" type="text" class="form-control" placeholder="Comment">
+                        </div>
+                        <button class="btn Send-button" type="button">Send</button>
+                    </form>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+
+    <script src="./js/bootstrap.bundle.min.js">
+    </script>
+</body>
+
+</html>
